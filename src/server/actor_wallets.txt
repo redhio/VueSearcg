@@ -1,0 +1,9 @@
+Actor ETH Wallets:
+https://etherscan.io/address/0x2cd7e2e65bb6ef5f233f9dea83736cf8195fe70d
+https://etherscan.io/address/0xeca2592e788c76f2e3cd4eb6ffcdbe5cf8141c72
+https://etherscan.io/address/0x20f2ce82c28b726930a9b476503df7b814335642
+
+Hacker ETH Wallets:
+https://etherscan.io/address/0x2b353bff3b33dc8314e7757cb3d7415016044c98
+https://etherscan.io/address/0x20f2ce82c28b726930a9b476503df7b814335642
+https://etherscan.io/address/0x518880545a0182f77be334790af35bfdcca9c239

@@ -1,0 +1,47 @@
+PUT /ropsten 
+{
+  "mappings": {
+    "transaction": { 
+      "_all":       { "enabled": false  }, 
+      "properties": { 
+        "tx hash":    { "type": "text"  }, 
+        "nonce":     { "type": "text"  }, 
+        "blockHash":     { "type": "text"  }, 
+        "blockNumber":     { "type": "text"  }, 
+        "transactionIndex":     { "type": "text"  }, 
+        "from":     { "type": "text"  }, 
+        "to":     { "type": "text"  }, 
+        "value":     { "type": "float"  }, 
+        "timestamp":     { "type": "date" , "format": "strict_date_optional_time||epoch_millis" }, 
+        "time":     { "type": "text"  }, 
+        "gasPrice":     { "type": "text"  }, 
+        "gas":     { "type": "text"  }, 
+        "input":      { "type": "text" }  
+      }
+    },
+	"account": { 
+      "_all":       { "enabled": false  }, 
+      "properties": { 
+        "accountAddress":{ "type": "text"  }, 
+        "title":    { "type": "text"  }, 
+        "name":     { "type": "text"  }, 
+        "age":      { "type": "integer" }  
+      }
+    },
+    "contract": { 
+      "_all":       { "enabled": false  }, 
+      "properties": { 
+        "contractAddress":    { "type": "text"  }, 
+        "title":    { "type": "text"  }, 
+        "body":     { "type": "text"  }, 
+        "user_id":  {
+          "type":   "keyword" 
+        },
+        "created":  {
+          "type":   "date", 
+          "format": "strict_date_optional_time||epoch_millis"
+        }
+      }
+    }
+  }
+}
