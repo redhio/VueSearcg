@@ -154,13 +154,13 @@
               {name: 'Wallet E'}
             ],
             links: [
-              {source: 'Wallet A', target: 'Wallet E', value: 5},
-              {source: 'Wallet A', target: 'Wallet C', value: 6},
-              {source: 'Wallet B', target: 'Wallet C', value: 10},
-              {source: 'Wallet B', target: 'Wallet D', value: 11},
-              {source: 'Wallet C', target: 'Wallet D', value: 11},
-              {source: 'Wallet C', target: 'Wallet E', value: 11},
-              {source: 'Wallet D', target: 'Wallet E', value: 11}
+              {source: 'Wallet A', target: 'Wallet E', value: 4},
+              {source: 'Wallet A', target: 'Wallet C', value: 10},
+              {source: 'Wallet B', target: 'Wallet C', value: 8},
+              {source: 'Wallet B', target: 'Wallet D', value: 6},
+              {source: 'Wallet C', target: 'Wallet D', value: 6},
+              {source: 'Wallet C', target: 'Wallet E', value: 10},
+              {source: 'Wallet D', target: 'Wallet E', value: 4}
             ]
           }
           console.log(this.chartData)
