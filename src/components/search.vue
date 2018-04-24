@@ -147,20 +147,20 @@
           console.log("This is some text")
           this.chartData  = {
             nodes: [
-              {name: 'Node A'},
-              {name: 'Node B'},
-              {name: 'Node C'},
-              {name: 'Node D'},
-              {name: 'Node E'}
+              {name: 'Wallet A'},
+              {name: 'Wallet B'},
+              {name: 'Wallet C'},
+              {name: 'Wallet D'},
+              {name: 'Wallet E'}
             ],
             links: [
-              {source: 'Node A', target: 'Node E', value: 1},
-              {source: 'Node A', target: 'Node C', value: 1},
-              {source: 'Node B', target: 'Node C', value: 1},
-              {source: 'Node B', target: 'Node D', value: 1},
-              {source: 'Node C', target: 'Node D', value: 1},
-              {source: 'Node C', target: 'Node E', value: 1},
-              {source: 'Node D', target: 'Node E', value: 1}
+              {source: 'Wallet A', target: 'Wallet E', value: 5},
+              {source: 'Wallet A', target: 'Wallet C', value: 6},
+              {source: 'Wallet B', target: 'Wallet C', value: 10},
+              {source: 'Wallet B', target: 'Wallet D', value: 11},
+              {source: 'Wallet C', target: 'Wallet D', value: 11},
+              {source: 'Wallet C', target: 'Wallet E', value: 11},
+              {source: 'Wallet D', target: 'Wallet E', value: 11}
             ]
           }
           console.log(this.chartData)
